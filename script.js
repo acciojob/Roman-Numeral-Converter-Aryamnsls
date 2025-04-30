@@ -18,7 +18,7 @@ function convertToRoman(num){
 	let result = " ";
 
 	for(let i = 0; i<roadMap.length; i++){
-		const [symbol, value] = romanMap[i];
+		const [symbol, value] = roadMap[i];
 		while(num >= value){
            result += symbol;
 			num -= value;
