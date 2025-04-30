@@ -27,4 +27,4 @@ function convertToRoman(num){
 	return result;
 }
 
-module.export = convertToRoman;
+module.exports = convertToRoman;
