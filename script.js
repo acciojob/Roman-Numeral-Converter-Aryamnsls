@@ -1,11 +1,12 @@
 function convertToRoman(num){
 const romanMap  = [
 	['M', 1000],
-	['D', 500],
 	['CM', 900],
+	['D', 500],
 	['CD', 400],
-	['L', 50],
+	['C', 100],
 	['XC', 90],
+	['L', 50],
 	['XL', 40],
 	['X', 10],
 	['IX', 9],
