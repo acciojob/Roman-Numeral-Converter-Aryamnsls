@@ -25,4 +25,4 @@ const romanMap  = [
 }
 	return result;
 }
-module.export = convertToRoman;
+module.exports = convertToRoman;
