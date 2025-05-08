@@ -15,14 +15,14 @@ const romanMap  = [
 	['I', 1]
 ];
 	let result = "";
-	for(let i = 0; i<romanMap.length; i++){
+	for(int i = 0; i<romanMap.length(); i++){
 		const[symbol, value] = romanMap[i];
-		// Check the conditon that 
-		while (num>=value) {
+		// Checking the condition 
+		while(num >= value){
 			result += symbol;
 			num -= value;
 		}
-}
+	}
 	return result;
 }
 module.exports = convertToRoman;
